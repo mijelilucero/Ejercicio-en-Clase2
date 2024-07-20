@@ -1,17 +1,17 @@
 package umg.progra2;
 
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+import umg.progra2.grupo1.cls1;
+import umg.progra2.grupo2.cls2;
+import umg.progra2.grupo3.cls3;
+
 public class Main {
     public static void main(String[] args) {
-        //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
-        // to see how IntelliJ IDEA suggests fixing it.
-        System.out.printf("Hello and welcome!");
+        cls1 ejercicio1 = new cls1();
+        cls2 ejercicio2 = new cls2();
+        cls3 ejercicio3 = new cls3();
 
-        for (int i = 1; i <= 5; i++) {
-            //TIP Press <shortcut actionId="Debug"/> to start debugging your code. We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint
-            // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
-            System.out.println("i = " + i);
-        }
+        ejercicio1.areaCirculo();
+        ejercicio2.areaPiramide();
+        ejercicio3.volumenPrisma();
     }
 }
